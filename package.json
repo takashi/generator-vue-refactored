@@ -1,21 +1,21 @@
 {
-  "name": "generator-vue",
-  "version": "0.0.3",
-  "description": "A yeoman generator for Vue.js + Component + Gulp boilerplate",
+  "name": "generator-vue-refactored",
+  "version": "0.0.1",
+  "description": "A yeoman generator for Vue.js + Component + Gulp boilerplate, forked from yyx990803/generator-vue",
   "keywords": [
     "yeoman-generator"
   ],
-  "homepage": "https://github.com/yyx990803/generator-vue",
-  "bugs": "https://github.com/yyx990803/generator-vue/issues",
+  "homepage": "https://github.com/takashi/generator-vue-refactored",
+  "bugs": "https://github.com/takashi/generator-vue-refactored/issues",
   "author": {
-    "name": "Evan You",
-    "email": "yyx990803@gmail.com",
-    "url": "https://github.com/yyx990803"
+    "name": "Takashi Nakagawa",
+    "email": "tak1240@gmail.com",
+    "url": "https://github.com/takashi"
   },
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/yyx990803/generator-vue.git"
+    "url": "git://github.com/takashi/generator-vue.git"
   },
   "dependencies": {
     "yeoman-generator": "~0.13.0"
