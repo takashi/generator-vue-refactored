@@ -1,6 +1,6 @@
 {
   "name": "generator-vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A yeoman generator for Vue.js + Component + Gulp boilerplate",
   "keywords": [
     "yeoman-generator"
