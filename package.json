@@ -1,6 +1,6 @@
 {
   "name": "generator-vue-refactored",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A yeoman generator for Vue.js + Component + Gulp boilerplate, forked from yyx990803/generator-vue",
   "keywords": [
     "yeoman-generator"
