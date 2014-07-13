@@ -8,7 +8,8 @@
   "scripts": [
     "src/scripts/main.js"
   ],
-  "styles": [
-   "src/styles/main.scss"
+  "styles": [<% if (sass) { %>
+    "src/styles/main.css"<% }else{ %>
+    "src/styles/main.scss"<% } %>
   ]
 }
