@@ -9,7 +9,7 @@ A [Yeoman](http://yeoman.io) generator for [Vue.js](http://vuejs.org) with [Comp
 ```
 $ npm install -g generator-vue-refactored
 $ mkdir myproject && cd myproject
-$ yo vue
+$ yo vue-refactored
 ```
 
 ## License
