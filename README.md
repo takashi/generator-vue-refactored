@@ -1,4 +1,4 @@
-# generator-vue
+# generator-vue-refactored
 
 > this repository is forked from [generator-vue](https://github.com/vuejs/generator-vue)
 
