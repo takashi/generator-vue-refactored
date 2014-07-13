@@ -4,11 +4,11 @@
   "dependencies": {
     "yyx990803/vue": "*"
   },
-  "main": "src/main.js",
+  "main": "src/scripts/main.js",
   "scripts": [
-    "src/main.js"
+    "src/scripts/main.js"
   ],
   "styles": [
-   "src/main.scss"
+   "src/styles/main.scss"
   ]
 }

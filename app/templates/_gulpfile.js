@@ -19,14 +19,14 @@ gulp.task('styles', function() {
 })
 
 gulp.task('lint', function () {
-    return gulp.src('src/**/*.js')
+    return gulp.src('src/scripts/*.js')
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
 })
 
 gulp.task('watch', function () {
-    gulp.watch(['component.json', 'src/**/*.js'], ['scripts'])<% if (sass) { %>
-    gulp.watch(['component.json', 'src/**/*.js'], ['styles']) <% } %>
+    gulp.watch(['component.json', 'src/scripts/*.js'], ['scripts'])<% if (sass) { %>
+    gulp.watch(['component.json', 'src/styles/*.scss'], ['styles']) <% } %>
 })
 
 gulp.task('default', ['scripts', 'styles'])
