@@ -24,14 +24,22 @@ VueGenerator.prototype.askFor = function askFor() {
 
   var cb = this.async();
 
-  var prompts = [{
-    name: 'appName',
-    message: 'What\'s the name of your app?',
-    default: 'vue-app'
-  }];
+  var prompts = [
+    {
+      name: 'appName',
+      message: 'What\'s the name of your app?',
+      default: 'vue-app'
+    },
+    {
+      type: 'confirm',
+      name: 'sass',
+      message: 'use sass?',
+    }
+  ];
 
   this.prompt(prompts, function (props) {
     this.appName = props.appName;
+    this.sass = props.sass;
     cb();
   }.bind(this));
 };

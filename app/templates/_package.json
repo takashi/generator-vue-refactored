@@ -4,6 +4,7 @@
   "devDependencies": {
     "gulp-component-builder": "^0.1.2",
     "gulp-jshint": "^1.5.0",
+    "component-builder-sass": "^0.1.1",
     "gulp": "^3.5.2"
   }
 }
