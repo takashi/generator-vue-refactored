@@ -1,7 +1,7 @@
 var gulp      = require('gulp'),
     jshint    = require('gulp-jshint'),
     component = require('gulp-component-builder'),
-    sass      = require('component-build-sass')
+    sass      = require('component-builder-sass')
 
 gulp.task('scripts', ['lint'], function () {
     return gulp.src('component.json')
