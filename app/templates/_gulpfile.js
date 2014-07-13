@@ -9,15 +9,14 @@ gulp.task('scripts', ['lint'], function () {
         .pipe(gulp.dest('build'))
 })
 
-<% if (sass) { %>
 gulp.task('styles', function() {
-    return gulp.src('component.json')
+    return gulp.src('component.json')<% if (sass) { %>
         .pipe(component.styles(function(builder) {
           builder.use('styles', sass());
-        }))
+        }))<% } else { %>
+        .pipe(component.styles())<% } %>
         .pipe(gulp.dest('build'));
 })
-<% } %>
 
 gulp.task('lint', function () {
     return gulp.src('src/**/*.js')

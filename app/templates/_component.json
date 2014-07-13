@@ -7,5 +7,8 @@
   "main": "src/main.js",
   "scripts": [
     "src/main.js"
+  ],
+  "styles": [
+   "src/main.scss"
   ]
 }

@@ -47,7 +47,12 @@ VueGenerator.prototype.askFor = function askFor() {
 VueGenerator.prototype.app = function app() {
   this.mkdir('src');
   this.mkdir('build');
-  this.copy('_main.js', 'src/main.js')
+  this.copy('_main.js', 'src/scripts/main.js')
+  if(this.sass){
+    this.copy('_main.scss', 'src/styles/main.scss')
+  }else{
+    this.copy('_main.scss', 'src/styles/main.css')
+  }
   this.template('_index.html', 'index.html')
   this.template('_package.json', 'package.json');
   this.template('_component.json', 'component.json');
